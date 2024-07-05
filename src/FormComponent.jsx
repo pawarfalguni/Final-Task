@@ -19,7 +19,7 @@ const FormComponent = () => {
   };
 
   const handlePost = async () => {
-    const url = "https://jsonplaceholder.typicode.com/posts"; // replace with your POST API endpoint
+    const url = "https://jsonplaceholder.typicode.com/posts"; 
 
     try {
       const response = await axios.post(url, formData, {
@@ -35,7 +35,7 @@ const FormComponent = () => {
   };
 
   const handlePut = async () => {
-    const url = "https://jsonplaceholder.typicode.com/posts/1"; // replace with your PUT API endpoint
+    const url = "https://jsonplaceholder.typicode.com/posts/1";
 
     try {
       const response = await axios.put(url, formData, {
